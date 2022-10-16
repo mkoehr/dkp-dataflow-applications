@@ -1,7 +1,7 @@
 displayName: Apache NiFi
 description: A distributed, data streaming platform.
 category:
-  - Data Pipeline
+  - Data Flow
 type: catalog
 scope:
   - project
