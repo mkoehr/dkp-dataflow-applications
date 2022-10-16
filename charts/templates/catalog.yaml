@@ -1,0 +1,13 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: data-catalog
+  labels:
+    kommander.d2iq.io/gitapps-gitrepository-type: catalog
+    kommander.d2iq.io/gitrepository-type: catalog
+    {{- include "data-catalog.labels" . | nindent 4 }}
+spec:
+  interval: 10s
+  ref:
+    branch: main
+  url: https://github.com/mkoehr/dkp-dataflow-applications.git
