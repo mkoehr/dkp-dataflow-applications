@@ -11,5 +11,5 @@
     ```
 
 <p align="center">
-<img align="left" width="1000"src="../dkp-dataflow-applications/admin/screenshot.png">
+<img align="left" width="1000"src="admin/screenshot.png">
 </p>
